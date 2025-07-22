@@ -10,7 +10,7 @@ SageMaker:
         # RoleArn: <replace the role arn here>
         # image_uri: <replace with your image URI>
         InstanceType: ml.m5.xlarge
-        EnvironmentVariables: {'MLFLOW_TRACKING_URI': arn:aws:sagemaker:us-west-2:975049911976:mlflow-tracking-server/mlflow-d-vuu8gn51m6ef, 'LOGNAME': sagemakeruser, 'MLFLOW_EXPERIMENT_NAME': sm-pipeline-experiment, 'AWS_REGION': us-west-2}
+        EnvironmentVariables: {'MLFLOW_TRACKING_URI': arn:aws:sagemaker:us-west-2:258565740036:mlflow-tracking-server/mlflow-d-hpoybt3f0glh, 'LOGNAME': SageMakerUser, 'MLFLOW_EXPERIMENT_NAME': sm-pipeline-experiment, 'AWS_REGION': us-west-2}
         Dependencies: ./requirements.txt
         IncludeLocalWorkDir: True
         CustomFileFilter:
